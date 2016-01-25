@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="extras">
+      <UniqueIdentifier>{d5499ab0-8603-4873-ac05-43806fe6fc2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="input">
+      <UniqueIdentifier>{c2a25998-221d-4620-b786-ebc665833e5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="output">
+      <UniqueIdentifier>{35ea2c34-6192-4e54-956e-889d315b606c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filters">
+      <UniqueIdentifier>{206fa6b1-b329-44e1-8e90-982a5bf6143c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filters\video">
+      <UniqueIdentifier>{70cc0803-c8c6-4779-ae72-4d2b5b71bb30}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="extras\getopt.c">
+      <Filter>extras</Filter>
+    </ClCompile>
+    <ClCompile Include="input\avs.c">
+      <Filter>input</Filter>
+    </ClCompile>
+    <ClCompile Include="input\input.c">
+      <Filter>input</Filter>
+    </ClCompile>
+    <ClCompile Include="input\raw.c">
+      <Filter>input</Filter>
+    </ClCompile>
+    <ClCompile Include="input\thread.c">
+      <Filter>input</Filter>
+    </ClCompile>
+    <ClCompile Include="input\timecode.c">
+      <Filter>input</Filter>
+    </ClCompile>
+    <ClCompile Include="input\y4m.c">
+      <Filter>input</Filter>
+    </ClCompile>
+    <ClCompile Include="filters\filters.c">
+      <Filter>filters</Filter>
+    </ClCompile>
+    <ClCompile Include="filters\video\cache.c">
+      <Filter>filters\video</Filter>
+    </ClCompile>
+    <ClCompile Include="filters\video\crop.c">
+      <Filter>filters\video</Filter>
+    </ClCompile>
+    <ClCompile Include="filters\video\depth.c">
+      <Filter>filters\video</Filter>
+    </ClCompile>
+    <ClCompile Include="filters\video\fix_vfr_pts.c">
+      <Filter>filters\video</Filter>
+    </ClCompile>
+    <ClCompile Include="filters\video\internal.c">
+      <Filter>filters\video</Filter>
+    </ClCompile>
+    <ClCompile Include="filters\video\resize.c">
+      <Filter>filters\video</Filter>
+    </ClCompile>
+    <ClCompile Include="filters\video\select_every.c">
+      <Filter>filters\video</Filter>
+    </ClCompile>
+    <ClCompile Include="filters\video\source.c">
+      <Filter>filters\video</Filter>
+    </ClCompile>
+    <ClCompile Include="filters\video\video.c">
+      <Filter>filters\video</Filter>
+    </ClCompile>
+    <ClCompile Include="output\flv.c">
+      <Filter>output</Filter>
+    </ClCompile>
+    <ClCompile Include="output\flv_bytestream.c">
+      <Filter>output</Filter>
+    </ClCompile>
+    <ClCompile Include="output\matroska.c">
+      <Filter>output</Filter>
+    </ClCompile>
+    <ClCompile Include="output\matroska_ebml.c">
+      <Filter>output</Filter>
+    </ClCompile>
+    <ClCompile Include="output\raw2.c">
+      <Filter>output</Filter>
+    </ClCompile>
+    <ClCompile Include="x264.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="x264res.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
